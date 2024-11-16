@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">My Profile</div>
+    <button class="toggle-button">&#9776;</button>
+    <ul class="nav-links">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#employment">Employment History</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<header class="profile-header">
+    <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+    <h1>ARLERUS AU-SUB</h1>
+    <em>Computer Engineering and Artificial Intelligence(CAI)</em>
+    <p>Engineering and Technology, <a href="http://pim.ac.th" target="_blank">Panyapiwat Institute of Management(PIM)</a></p>
+    <hr>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello, my name is Petong. I am 19 years old and currently studying at Panyapiwat Institute of Management, Faculty of Engineering and Technology, majoring in Computer Engineering and Artificial Intelligence. I am a patient, responsible, and punctual person.</p>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <p>Unversity</p>
+    <p>Panyapiwat Institute of Management.</p>
+        <p>Year 2023-Present</p>
+    <p>Major</p>
+        <p>Faculty of Engineering and Technology, majoring in Computer Engineering and Artificial Intelligence</p>
+        
+        
+</section>
+
+<section id="employment">
+    <h2>Employment History</h2>
+    <p>March 2024 - May 2024</p>
+        <p>C.P. ALL PUBLIC COMPANY LIMITED </p>
+        <p>Position: Training Student</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <table>
+        <tr>
+            <th>Skill</th>
+            <th>Level</th>
+        </tr>
+        <tr>
+            <td>JAVA</td>
+            <td>★★★★☆</td>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>★★★★☆</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>★★★☆☆</td>
+        </tr>
+        <tr>
+            <td>SQL</td>
+            <td>★★★☆☆</td>
+        </tr>
+        <tr>
+            <td>C#</td>
+            <td>★★☆☆☆</td>
+        </tr>
+        <tr>
+            <td>PYTHON</td>
+            <td>★★☆☆☆</td>
+        </tr>
+    </table>
+</section>
+
+<footer>
+    <a href="https://github.com/AriArlerus">GitHub</a>
+    <a href="contact.html">Contact Me</a>
+</footer>
+
+<script>
+    const toggleButton = document.querySelector('.toggle-button');
+    const navLinks = document.querySelector('.nav-links');
+
+    toggleButton.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+</script>
+
+</body>
+</html>
